@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "rwandadataexplorer",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
