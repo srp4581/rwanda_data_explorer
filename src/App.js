@@ -1,12 +1,10 @@
-import logo from './logo.svg';
+import RwandaMap from './components/RwandaMap'
 import "@aws-amplify/ui-react/styles.css";
 import {
   withAuthenticator,
   Button,
-  Heading,
-  Image,
   View,
-  Card
+
 } from "@aws-amplify/ui-react";
 
 function App({ signOut }) {
@@ -15,7 +13,9 @@ function App({ signOut }) {
       <Card>
         <Heading level={1}>We now have Auth!</Heading>
       </Card>
+
       <Button onClick={signOut}>Sign Out</Button>
+      <RwandaMap />
     </View>
   );
 }
