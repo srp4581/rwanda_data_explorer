@@ -4,18 +4,12 @@ import {
   withAuthenticator,
   Button,
   View,
-  Card,
-  Heading
 
 } from "@aws-amplify/ui-react";
 
 function App({ signOut }) {
   return (
     <View className="App">
-      <Card>
-        <Heading level={1}>We now have Auth!</Heading>
-      </Card>
-
       <Button onClick={signOut}>Sign Out</Button>
       <RwandaMap />
     </View>

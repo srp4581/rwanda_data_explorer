@@ -14,12 +14,12 @@ const RwandaMap = () => {
         const view = new MapView({
             container: mapRef.current,
             map: map, 
-            center: [-118.805, 34.027],
+            center: [29.286416613812765, -1.7302837830134736],
             zoom: 13
         })
 
         const featureLayer = new FeatureLayer({
-            url: 'https://services3.arcgis.com/GVgbJbqm8hXASVYi/arcgis/rest/services/Trailheads_Styled/FeatureServer/0'
+            url: 'https://ritarcgis.maps.arcgis.com/home/item.html?id=f58ef8b578924caf800b5ca40589b98c'
         })
 
         map.add(featureLayer);
